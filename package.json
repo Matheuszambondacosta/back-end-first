@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Projeto de aula back end senai",
   "main": "src/server.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/server.js"
   },
   "keywords": [
     "NodeJS",
@@ -13,5 +15,10 @@
     "TDS01"
   ],
   "author": "Matheus Costa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }
