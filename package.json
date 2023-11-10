@@ -1,0 +1,17 @@
+{
+  "name": "backendaula01",
+  "version": "1.0.0",
+  "description": "Projeto de aula back end senai",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Javascript",
+    "SENAI",
+    "TDS01"
+  ],
+  "author": "Matheus Costa",
+  "license": "ISC"
+}
